@@ -1,0 +1,193 @@
+
+.icon{
+
+    width: 31.09px;
+    height: 48px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 40px;
+   
+
+}
+
+main{
+
+    display: flex;
+    justify-content: center;
+   
+    margin: 40px;
+}
+
+body{
+
+    background: #F3F5FC;  
+}
+
+#txt{
+
+    color: #0A3871;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    margin-top: 168px;
+
+}
+
+#texto-modificar{
+
+    background: #F3F5FC;
+    border-style: none;
+    height: 472px;
+    width: 545px;
+    margin-right: 40px;
+    resize: none;
+    font-size: 30px;
+}
+
+.copiar{
+
+    background: #FFFFFF;
+    width: 400px;
+    height: 944px;
+    left: 1000px;
+    top: 40px;
+    box-shadow: 0px 24px 32px -8px rgb(0 0 0 / 8%);
+    border-radius: 32px;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    
+
+}
+
+#desenho{
+
+    text-align: center;
+    margin-top: 60%;
+}
+
+.fadeOut{
+    opacity:0;
+    transition: 0.10s;
+}
+
+footer{
+   display: flex;
+   justify-content: center;
+
+
+}
+
+#advertencia{
+
+    width: 16px;
+    height: 16px;
+    margin-inline: 5px;
+
+}
+
+.adv-rodape{
+    display: flex;
+} 
+
+.Btn-1{
+
+    
+    position: static;
+    width: 328px;
+    height: 67px;
+    left: 352px;
+    top: 0px;
+
+    /* Light gray */
+
+    background: #D8DFE8;
+    /* Dark blue/dark-blue-300 */
+    color: #FFFFFF;
+    border: 1px solid #0A3871;
+    box-sizing: border-box;
+    border-radius: 24px;
+
+    /* Inside auto layout */
+
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    background: #0A3871;
+
+   
+}
+
+.Btn-2{
+
+        /* Auto layout */
+    
+    padding: 24px;
+
+    
+    width: 328px;
+    height: 67px;
+    left: 0px;
+    top: 0px;
+
+    /* Dark blue/dark-blue-300 */
+
+    background: #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 24px;
+
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    background: #FFFFFF;
+
+
+}
+
+button{
+    cursor: pointer;
+}
+
+#botao-copiar{
+
+    
+    padding: 24px;
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+        
+}
+
+p{
+    font-family: Inter;
+    font-size: 20px;
+
+}

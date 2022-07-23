@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="style.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <title>Decodificador de textos</title>
+</head>
+<body>
+
+    <head>
+        <div >
+            <img class="icon" src="./img/Vector-a.png">
+        </div>
+        
+
+    </head>
+
+    <main>
+
+        <div class="text-area">
+
+            <p id="txt"> Digite aqui o seu texto </p>
+
+            <textarea id="texto-modificar" name="texto" maxlength="200">
+
+            </textarea>
+        </div>
+
+        <div class="copiar">
+
+            <div id="drawAndText">
+                <img id="desenho" src="./img/desenho.svg"/>
+
+                <h3>Nunhuma mensagem encontrada</h3>
+                <p>Digite um texto que deseja </br> Criptografar ou descriptografar</p>
+                
+            </div>
+            
+            <p id="saidaDoTexto"></p>
+            <button id="botao-copiar">Copiar</button>
+
+        </div>
+        
+        
+
+    </main>
+
+    <footer class="rodape">
+
+        <div class="btn">
+            
+                <p class="adv-rodape"> <img id="advertencia" src="./img/Vector.png"/> Apenas letras minúsculas e sem acento.</p>
+
+            <span >
+                <button id="btnCriptografar" class="Btn-1">Criptografar</button>
+            </span>
+            
+            <span>
+                <button id="btnDescriptografar" class="Btn-2" >Descriptografar</button>
+            </span>
+    
+        </div>
+        
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
